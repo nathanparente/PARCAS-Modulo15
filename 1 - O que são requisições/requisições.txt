@@ -1,0 +1,16 @@
+O Que São Requisições No JavaScript?
+Requisições em JavaScript se traduzem em realizar chamadas com verbos HTTP, 
+ou seja, criar uma requisição POST, PUT, DELETE, PATH e GET.
+
+Através das requisições podemos enviar arquivos, pedir arquivos, criar gráficos dinâmicos, 
+cotações, jogos online e qualquer transmissão de dados.
+
+O JavaScript funciona carregado na memória RAM, logo, ele não tem timeout, isso quer dizer 
+que se eu programar um loop nele, ele irá executar esse loop até um overload na memória ram 
+ou se a programação estiver correta, nosso programa irá funcionar bem.
+
+As requisições em JavaScript acontecem por baixo dos panos, ou seja, você não precisa criar um refresh na página 
+para ver os dados. Você carrega seu arquivo HTML e o navegador a partir da programação em JavaScript cria uma requisição 
+sem a necessidade de um recarregamento da página. Isso é útil por que além de não precisarmos baixar todos os dados 
+da página novamente, nosso servidor irá entregar apenas os dados que pedimos, o que possibilita um custo menor 
+no lado do servidor e uma eficácia maior do lado do client

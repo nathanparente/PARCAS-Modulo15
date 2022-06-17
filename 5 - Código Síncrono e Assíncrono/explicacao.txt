@@ -1,0 +1,35 @@
+Por muitos anos na Web, a única maneira que estava disponível para realizarmos requisições para um servidor 
+ou executar funções era por meio de um código síncrono.
+
+Em um código síncrono, todas as funções e requisições trabalham em sincronia, em um contato direto, 
+do início ao fim da comunicação. Dessa maneira, esse código só permite uma requisição por vez. 
+
+CÓDIGO SÍNCRONO // EXECUTA UMA LINHA POR VEZ 
+
+let nome = 'Nathan', 
+let sobrenome = 'Vieira'
+let idade = 20,
+let numeros = [1,2,3,4,5,6,7,8]
+
+console.log(nome)
+
+Por exemplo: se fizermos uma requisição para uma API, precisamos esperar a sua resposta. Até aí tudo bem. 
+
+Mas, imagine que tenhamos mais de uma requisição para fazer. Com um código síncrono quaisquer outras requisições 
+além da principal são bloqueadas até que a primeira termine. Em outras palavras, precisamos esperar 
+a resposta da primeira requisição para só então ir para a próxima. Isso poderia afetar a experiência do usuário, 
+deixando nosso site um tanto monótono.
+
+Uma requisição assíncrona é diferente. Ela não trabalha em sincronia. Dessa forma, 
+nós podemos realizar várias requisições ao mesmo tempo, e uma requisição não irá afetar a outra. 
+Isso é impressionante, e ajuda muito na performance e na experiência do usuário também. 
+Em poucas palavras, com um código assíncrono, nosso site se torna mais dinâmico.
+
+CÓDIGO ASSÍNCRONO // NÃO PRECISO ESPERAR A LINHA SER EXECUTADA
+
+let nome = 'Nathan', 
+let sobrenome = 'Vieira'
+let maquina =  maquina.executarMaquina();
+let idade = 20,
+
+

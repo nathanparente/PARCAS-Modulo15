@@ -1,0 +1,14 @@
+
+
+O objeto JSON, disponível em todos os navegadores modernos, possui dois métodos úteis para lidar com o conteúdo formatado 
+em JSON: parse e stringify. JSON.parse() recebe uma string JSON e a transforma em um objeto JavaScript. 
+
+JSON.stringify() recebe um objeto JavaScript e o transforma em uma string JSON.
+
+JSON.stringify()
+
+JSON.stringify() pode receber dois argumentos adicionais, sendo o primeiro uma função replacer e o segundo 
+um valor String ou Number a ser usado como um space na string retornada.
+
+A função replacer pode ser usada para filtrar valores, pois qualquer valor retornado como undefined 
+estará fora da string retornada:

@@ -1,0 +1,23 @@
+
+JSON, que significa JavaScript Object Notation, é uma formatação utilizada para estruturar dados 
+em formato de texto e transmiti-los de um sistema para outro, como em aplicações cliente-servidor 
+ou em aplicativos móveis. Uma maneira de utilização é por meio de requisições AJAX, em que a aplicação
+ recupera os dados armazenados no servidor de hospedagem sem a necessidade de recarregar a página.
+
+A transferência de dados entre aplicações é feita por meio de API — Application Programming Interface — que, 
+entre outros formatos, utiliza a notação JSON para estruturar as informações trafegadas.
+
+O formato JSON também é utilizado para a realização de requisições AJAX em sites, em que são feitas diferentes 
+interações com o banco de dados, como o MySql, para realizar operações como consulta, inclusão e exclusão de registros.
+
+Outra forma de utilização de arquivos .json é para o gerenciamento de projetos em diferentes linguagens de programação. 
+O Node.js, por exemplo, utiliza um arquivo chamado package.json em seus projetos para armazenar 
+as dependências utilizadas na aplicação.
+
+Além da terminação .json em todos os arquivos que utilizam esse formato, os dados armazenados devem seguir 
+uma notação específica, ou seja, precisam ser organizados com os seguintes elementos básicos:
+
+chaves { } para delimitar os objetos e obrigatórias para iniciar e encerrar o conteúdo;
+colchetes [ ] para indicar um array;
+dois pontos : para separar a chave e seu valor correspondente;
+vírgula , para indicar a separação entre os elementos.
